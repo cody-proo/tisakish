@@ -1,0 +1,8 @@
+<svg id="ic-furniture-wardrobe" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Rectangle_154" data-name="Rectangle 154" width="32" height="32" fill="none"/>
+  <g id="Layer" transform="translate(5.333 1.333)">
+    <path id="Path_302" data-name="Path 302" d="M21.333,1H8A4,4,0,0,0,4,5V26.333a4,4,0,0,0,4,4H21.333a4,4,0,0,0,4-4V5A4,4,0,0,0,21.333,1ZM8,27.667a1.333,1.333,0,0,1-1.333-1.333V5A1.333,1.333,0,0,1,8,3.667h5.333v24Zm14.667-1.333a1.333,1.333,0,0,1-1.333,1.333H16v-24h5.333A1.333,1.333,0,0,1,22.667,5Z" transform="translate(-4 -1)" fill="#baa566" fill-rule="evenodd"/>
+    <path id="Path_303" data-name="Path 303" d="M9.333,12A1.333,1.333,0,0,0,8,13.333v1.333a1.333,1.333,0,0,0,2.667,0V13.333A1.333,1.333,0,0,0,9.333,12Z" transform="translate(-2.667 2.667)" fill="#baa566" fill-rule="evenodd"/>
+    <path id="Path_304" data-name="Path 304" d="M15.333,12A1.333,1.333,0,0,0,14,13.333v1.333a1.333,1.333,0,0,0,2.667,0V13.333A1.333,1.333,0,0,0,15.333,12Z" transform="translate(-0.667 2.667)" fill="#baa566" fill-rule="evenodd"/>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+.location {
+  width: 100%;
+  position: relative;
+  background-image: url("../../assets/images/location.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  overflow: hidden;
+  height: 400px;
+
+  @media (min-width: 600px) {
+    height: 100vh;
+  }
+
+  &__content {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 50px 0;
+  }
+
+  &__title {
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 10px;
+      width: 100%;
+      background: #aa9666;
+      z-index: -1;
+    }
+    @media (min-width: 600px) {
+      font-size: 55px;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    margin-top: 10px;
+
+    @media (min-width: 600px) {
+      font-size: 25px;
+    }
+  }
+
+  &__cloud {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 100%;
+    width: 100%;
+    &--animation {
+      animation: 20s linear animationCloud;
+    }
+    @keyframes animationCloud {
+      from {
+        left: 50%;
+      }
+
+      to {
+        left: 0%;
+      }
+    }
+  }
+}
