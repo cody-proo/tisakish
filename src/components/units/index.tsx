@@ -163,7 +163,7 @@ const unitsLists = [
     area: 171.9,
     room: 1,
     masterRoom: 1,
-    model: "https://panel.polygony.ir/model/622e118d27f147048e90fcac",
+    model: "https://panel.polygony.ir/model/622f36647800fc07414d75c1",
     plan: Plan1,
   },
   {
@@ -340,7 +340,7 @@ const Units: React.FC = () => {
         ))}
       </ul>
       <div className="building">
-        {unitsLists.map((unitItem, unitIndex) => {
+        {unitsLists.map((unitItem, unitIndex) => { 
           if (unitIndex === selectedUnits) {
             return (
               <>
