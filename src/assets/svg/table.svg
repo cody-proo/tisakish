@@ -1,0 +1,6 @@
+<svg id="ic-furniture-shelf" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Rectangle_152" data-name="Rectangle 152" width="32" height="32" fill="none"/>
+  <g id="Layer" transform="translate(1.333 2.667)">
+    <path id="Path_300" data-name="Path 300" d="M26.333,2H5A4,4,0,0,0,1,6V26a2.667,2.667,0,0,0,2.667,2.667h24A2.667,2.667,0,0,0,30.333,26V6A4,4,0,0,0,26.333,2ZM21,4.667V10H17V4.667ZM27.667,18h-4V12.667h4ZM21,18H17V12.667h4Zm-6.667,0h-4V12.667h4Zm0-13.333V10h-4V4.667ZM3.667,6A1.333,1.333,0,0,1,5,4.667H7.667V10h-4Zm0,6.667h4V18h-4ZM5,26a1.333,1.333,0,0,1-1.333-1.333v-4h4V26Zm5.333,0V20.667h4V26ZM17,26V20.667h4V26Zm10.667,0h-4V20.667h4Zm-4-16V4.667h2.667A1.333,1.333,0,0,1,27.667,6v4Z" transform="translate(-1 -2)" fill="#baa566" fill-rule="evenodd"/>
+  </g>
+</svg>

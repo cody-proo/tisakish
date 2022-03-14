@@ -1,0 +1,11 @@
+<svg id="ic-layout-multiple-grid" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Rectangle_173" data-name="Rectangle 173" width="32" height="32" fill="none"/>
+  <g id="Layer" transform="translate(1.333 1.333)">
+    <path id="Path_343" data-name="Path 343" d="M1,5A4,4,0,0,1,5,1H26.333a4,4,0,0,1,4,4V26.333a4,4,0,0,1-4,4H5a4,4,0,0,1-4-4ZM5,3.667A1.333,1.333,0,0,0,3.667,5V26.333A1.333,1.333,0,0,0,5,27.667H26.333a1.333,1.333,0,0,0,1.333-1.333V5a1.333,1.333,0,0,0-1.333-1.333Z" transform="translate(-1 -1)" fill="#baa566" fill-rule="evenodd"/>
+    <path id="Path_344" data-name="Path 344" d="M1,5A4,4,0,0,1,5,1H26.333a4,4,0,0,1,4,4v5.333H1ZM5,3.667A1.333,1.333,0,0,0,3.667,5V7.667h24V5a1.333,1.333,0,0,0-1.333-1.333Z" transform="translate(-1 -1)" fill="#baa566" fill-rule="evenodd"/>
+    <path id="Path_345" data-name="Path 345" d="M13,1h9.333a4,4,0,0,1,4,4v5.333H13Zm2.667,2.667v4h8V5a1.333,1.333,0,0,0-1.333-1.333Z" transform="translate(3 -1)" fill="#baa566" fill-rule="evenodd"/>
+    <path id="Path_346" data-name="Path 346" d="M14.333,25.333H5a4,4,0,0,1-4-4V16H14.333Zm-2.667-2.667v-4h-8v2.667A1.333,1.333,0,0,0,5,22.667Z" transform="translate(-1 4)" fill="#baa566" fill-rule="evenodd"/>
+    <path id="Path_347" data-name="Path 347" d="M1,6H30.333v9.333H1ZM3.667,8.667v4h24v-4Z" transform="translate(-1 0.667)" fill="#baa566" fill-rule="evenodd"/>
+    <path id="Path_348" data-name="Path 348" d="M1,11H30.333v9.333H1Zm2.667,2.667v4h24v-4Z" transform="translate(-1 2.333)" fill="#baa566" fill-rule="evenodd"/>
+  </g>
+</svg>
