@@ -5,7 +5,6 @@ import {
   BoxSvg,
   CabinetSvg,
   DoorSvg,
-  GallerySeven,
   InfoSvg,
   Plan1,
   Plan2,
@@ -15,19 +14,83 @@ import {
   Plan6,
   Plan7,
   Plan8,
-  Slider1,
-  Slider2,
-  Slider3,
   SquareSvg,
   TableSvg,
   TouchSvg,
   WallSvg,
+  Units1Gallery1,
+  Units1Gallery2,
+  Units1Gallery3,
+  Units1Gallery4,
+  Units1Gallery5,
+  Units1Gallery6,
+  Units1Gallery7,
+  Units1Gallery8,
+  Units1Gallery9,
+  Units1Gallery10,
+  Units1Gallery11,
+  Units1Gallery12,
+  Units1Gallery13,
+  Units2Gallery1,
+  Units2Gallery2,
+  Units2Gallery3,
+  Units2Gallery4,
+  Units3Gallery1,
+  Units3Gallery2,
+  Units3Gallery3,
+  Units3Gallery4,
+  Units3Gallery5,
+  Units3Gallery6,
+  Units4Gallery1,
+  Units4Gallery2,
+  Units4Gallery3,
+  Units4Gallery4,
+  Units4Gallery5,
+  Units4Gallery6,
+  Units4Gallery7,
+  Units4Gallery8,
+  Units4Gallery9,
+  Units4Gallery10,
+  Units4Gallery11,
+  Units5Gallery1,
+  Units5Gallery2,
+  Units5Gallery3,
+  Units5Gallery4,
+  Units5Gallery5,
+  Units5Gallery6,
+  Units5Gallery7,
+  Units5Gallery8,
+  Units5Gallery9,
+  Units6Gallery1,
+  Units6Gallery2,
+  Units6Gallery3,
+  Units6Gallery4,
+  Units6Gallery5,
+  Units6Gallery6,
+  Units6Gallery7,
+  Units6Gallery8,
+  Units7Gallery1,
+  Units7Gallery2,
+  Units7Gallery3,
+  Units7Gallery4,
+  Units7Gallery5,
+  Units7Gallery6,
+  Units7Gallery7,
+  Units7Gallery8,
+  Units7Gallery9,
+  Units8Gallery1,
+  Units8Gallery2,
+  Units8Gallery3,
+  Units8Gallery4,
+  Units8Gallery5,
+  Units8Gallery6,
+  Units8Gallery7,
+  Units8Gallery8,
+  Units8Gallery9,
 } from "../../constants";
 import "./index.scss";
 
 import SlickSlider, { Settings } from "react-slick";
-import { Img } from "react-image";
-import VisibilitySensor from "react-visibility-sensor";
 import "slick-carousel/slick/slick.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { BsX } from "react-icons/bs";
@@ -47,20 +110,6 @@ const NextArrow: React.FC<{ onClick?: () => void }> = ({ onClick }) => {
     </div>
   );
 };
-
-const unitsGallery = [
-  Slider1,
-  Slider2,
-  Slider3,
-  GallerySeven,
-  Slider1,
-  GallerySeven,
-  Slider2,
-  Slider3,
-  Slider3,
-  GallerySeven,
-  Slider1,
-];
 
 const slickOptions: Settings = {
   infinite: true,
@@ -111,7 +160,7 @@ const unitsName = [
 const unitsLists = [
   {
     name: "واحد 1",
-    area: 120,
+    area: 171.9,
     room: 1,
     masterRoom: 1,
     model: "https://panel.polygony.ir/model/622e118d27f147048e90fcac",
@@ -119,60 +168,143 @@ const unitsLists = [
   },
   {
     name: "واحد 2",
-    area: 180,
-    room: 2,
-    masterRoom: 10,
+    area: 61.8,
+    room: 0,
+    masterRoom: 0,
     model: "https://panel.polygony.ir/model/622e165827f147048e90fcad",
     plan: Plan2,
   },
   {
     name: "واحد 3",
-    area: 200,
-    room: 3,
-    masterRoom: 220,
+    area: 89.4,
+    room: 1,
+    masterRoom: 0,
     model: "https://panel.polygony.ir/model/622e17fc27f147048e90fcae",
     plan: Plan3,
   },
   {
     name: "واحد 4",
-    area: 220,
-    room: 4,
-    masterRoom: 300,
+    area: 147.9,
+    room: 3,
+    masterRoom: 0,
     model: "https://panel.polygony.ir/model/622e186f27f147048e90fcaf",
     plan: Plan4,
   },
   {
     name: "واحد 5",
-    area: 240,
-    room: 5,
-    masterRoom: 400,
+    area: 112.7,
+    room: 2,
+    masterRoom: 0,
     model: "https://panel.polygony.ir/model/622e18d627f147048e90fcb0",
     plan: Plan5,
   },
   {
     name: "واحد 6",
-    area: 260,
-    room: 6,
-    masterRoom: 500,
+    area: 92.2,
+    room: 1,
+    masterRoom: 0,
     model: "https://panel.polygony.ir/model/622e194827f147048e90fcb1",
     plan: Plan6,
   },
   {
     name: "واحد 7",
-    area: 280,
-    room: 7,
-    masterRoom: 600,
+    area: 92.5,
+    room: 1,
+    masterRoom: 0,
     model: "https://panel.polygony.ir/model/6223796927f147048e90fca8",
     plan: Plan7,
   },
   {
     name: "واحد 8",
-    area: 300,
-    room: 8,
-    masterRoom: 700,
+    area: 90.5,
+    room: 1,
+    masterRoom: 1,
     model: "https://panel.polygony.ir/model/6223796927f147048e90fca8",
     plan: Plan8,
   },
+];
+
+const unitsListsGallery = [
+  [
+    Units1Gallery1,
+    Units1Gallery2,
+    Units1Gallery3,
+    Units1Gallery4,
+    Units1Gallery5,
+    Units1Gallery6,
+    Units1Gallery7,
+    Units1Gallery8,
+    Units1Gallery9,
+    Units1Gallery10,
+    Units1Gallery11,
+    Units1Gallery12,
+    Units1Gallery13,
+  ],
+  [Units2Gallery1, Units2Gallery2, Units2Gallery3, Units2Gallery4],
+  [
+    Units3Gallery1,
+    Units3Gallery2,
+    Units3Gallery3,
+    Units3Gallery4,
+    Units3Gallery5,
+    Units3Gallery6,
+  ],
+  [
+    Units4Gallery1,
+    Units4Gallery2,
+    Units4Gallery3,
+    Units4Gallery4,
+    Units4Gallery5,
+    Units4Gallery6,
+    Units4Gallery7,
+    Units4Gallery8,
+    Units4Gallery9,
+    Units4Gallery10,
+    Units4Gallery11,
+  ],
+  [
+    Units5Gallery1,
+    Units5Gallery2,
+    Units5Gallery3,
+    Units5Gallery4,
+    Units5Gallery5,
+    Units5Gallery6,
+    Units5Gallery7,
+    Units5Gallery8,
+    Units5Gallery9,
+  ],
+  [
+    Units6Gallery1,
+    Units6Gallery2,
+    Units6Gallery3,
+    Units6Gallery4,
+    Units6Gallery5,
+    Units6Gallery6,
+    Units6Gallery7,
+    Units6Gallery8,
+  ],
+  [
+    Units7Gallery1,
+    Units7Gallery2,
+    Units7Gallery3,
+    Units7Gallery4,
+    Units7Gallery5,
+    Units7Gallery6,
+    Units7Gallery7,
+    Units7Gallery8,
+    Units7Gallery9,
+  ],
+  [
+    Units8Gallery1,
+    Units8Gallery2,
+    Units8Gallery3,
+    Units8Gallery4,
+    Units8Gallery5,
+    Units8Gallery6,
+    Units8Gallery7,
+    Units8Gallery8,
+    Units8Gallery9,
+  ],
 ];
 
 const Units: React.FC = () => {
@@ -249,6 +381,8 @@ const Units: React.FC = () => {
               </>
             );
           }
+
+          return <></>;
         })}
       </div>
 
@@ -300,11 +434,9 @@ const Units: React.FC = () => {
 
       <div className="slider">
         <SlickSlider {...slickOptions}>
-          {unitsGallery.map((element, index) => (
+          {unitsListsGallery[selectedUnits].map((element, index) => (
             <div key={index}>
-              <VisibilitySensor delayedCall>
-                <Img className="slider__image" alt="" src={element} />
-              </VisibilitySensor>
+              <img className="slider__image" alt="" src={element} />
             </div>
           ))}
         </SlickSlider>
