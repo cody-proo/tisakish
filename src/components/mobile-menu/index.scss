@@ -1,0 +1,46 @@
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  max-width: 350px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  overflow: hidden;
+  transition: 0.4s all;
+  &__icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  &__list {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    opacity: 0;
+    transition: 0.5s all;
+    &--open {
+      opacity: 1;
+    }
+  }
+  &__item {
+    color: #fff;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
+  &--open {
+    width: 60%;
+  }
+}
